@@ -13,7 +13,9 @@ I therefore close the start-up, and after a 2 years grace periode where no legal
 This project is share under the GitHub license, which like the Creative commons license, allows for free non-commercial use.
 The intent is for kettlebell enthusiast to be able to build their own counter which can be used both for the individual training and for competitions.
 Have fun and keep lifting
+
 Best regards
+
 Erik Hofman-Bang
 Denmark, December 2022. 
 

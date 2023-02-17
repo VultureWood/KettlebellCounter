@@ -1,0 +1,56 @@
+Arduino IDE installation, Library download and board manager.
+
+1) Arduino IDE:
+Go to Arduino.cc and download the IDE to your computer. 
+Follow the step shown, it should be staright forward, even with the new 2.0 IDE.
+
+2) Libraries
+Open you browser, and search for:
+
+Adafruit_GFX.h.
+
+Click the GitHub link. press the Green <Code> button , and select "downlaod ZIP"
+
+Do this for:
+
+RF24.h  (by nRF24) and P3RGB64x32MatrixPanel.h (by NeoCat) as well
+
+Go to your Aarduino IDE again, and select: <Sketch> , <Include Library>, < Add .zip Library..>
+
+A file explorer window (or similar) will open. Navigate to your downlaod folder and select one of the above mentioned files and click <Open>
+
+Repeat this for the remaining two files 
+
+3) adding ESP 32 boards to the IDE
+
+Press <FileZ in the top left corner of the IDE, and select <Prefrences>
+
+Almost at the bottom, insert "https://dl.espressif.com/dl/package_esp32_index.json" into the text field after "Additional boards manager URLs:
+
+Press <OK>
+
+Go to <Tools> , <Board:> and select <Boardmanager>
+
+Tyoe in "ESP32" in to the text field in the top left corner under "BOARDS MANAGER" and press enter
+
+PRess the "esp32 by Espressif Systems" and select the newest version to installation
+
+
+4) Selecting the right board
+
+
+Go to <Tools> , <Board:> , <esp32> and select the right ESP32 board. For me its "DOIT ESP32 DEVKIT V1"
+
+You should now be able to compile the file.
+
+
+
+When uploading... Remember that once it starts the actual uploading, the IDE polls the board, and you have to
+
+press the "BOOT" button on the right side of the USB port to enable the upload procedure.
+
+
+17/02-23 
+
+\\Erik
+
